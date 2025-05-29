@@ -18,9 +18,9 @@ console.log(secondText)
 
 
 
-let firstNumber = prompt( "write your number down" )
+let firstNumber = Number(prompt( "write your number down" ))
 
-let secondNumber = prompt( "write your number down ")
+let secondNumber = Number(prompt( "write your number down "))
 
 if (firstNumber + secondNumber > 10 ) {
     alert("Сума більша за 10")} else {
@@ -40,7 +40,7 @@ if (firstNumber + secondNumber > 10 ) {
 
 
 
-    const number1 = prompt("enter 10 to 20")
+    const number1 = Number(prompt("enter 10 to 20"))
 
     if( number1 >= 10 && number1 <=20 ){
      alert("Число входить в діапазон від 10 до 20")
