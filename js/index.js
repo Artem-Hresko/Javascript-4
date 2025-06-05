@@ -57,7 +57,7 @@ if (firstNumber + secondNumber > 10 ) {
     let password = prompt("enter your password:")
 
 
-    if ( name.length >= 3 , 
+    if ( name.length >= 3  && 
         email.includes("@") && email.includes(".") 
         && password.length >= 6  ){
 alert("Перенаправлення на іншу сторінку") } 
